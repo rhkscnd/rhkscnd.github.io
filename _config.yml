@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "KHH"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "khh"
-description              : "First Blog."
+name                     : "Your Name"
+description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -101,9 +101,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "khh"
+  name             : "KHH"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**Blog**."
+  bio              : "BLOG"
   location         : "Somewhere"
   email            :
   links:
@@ -129,23 +129,23 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+#    - label: "Facebook"
+#      icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
       # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+#    - label: "GitLab"
+#      icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+#    - label: "Bitbucket"
+#      icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
       # url:
 
 
@@ -180,7 +180,6 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
-  - /_posts
 keep_files:
   - .git
   - .svn
@@ -283,8 +282,9 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      sidebar_main: true
