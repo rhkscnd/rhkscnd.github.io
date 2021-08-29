@@ -1,17 +1,20 @@
 ---
-title:  "[Jekyll] 블로그 포스팅하는 방법"
-excerpt: "md 파일에 마크다운 문법으로 작성하여 Github 원격 저장소에 업로드 해보자. 에디터는 Visual Studio code 사용! 로컬 서버에서 확인도 해보자. "
+title:  "github.io 블로그 시작하기"
+excerpt: "GitHub Blog 서비스인 github.io 블로그 시작하기로 했다."
 
 categories:
   - Blog
 tags:
-  - [Blog, jekyll, Github, Git]
-
-toc: true
-toc_sticky: true
- 
-date: 2020-05-25
-last_modified_at: 2020-05-25
+  - Blog
+last_modified_at: 2019-04-13T08:06:00-05:00
 ---
 
-123
+GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
+GitHub Blog 서비스의 이름은 Pages이다.
+
+Pages가 다른 블로그 플랫폼 보다 편한 것 같아서 마음에 든다.
+다른 사람들도 같이 많이 사용했으면 좋겠다는 생각이 든다.
+
+YFM에서 정의한 제목을 이중 괄호 구문으로 본문에 추가할 수 있다.
+이 글의 제목은 {{ page.title }}이고
+마지막으로 수정된 시간은 {{ page.last_modified_at }}이다.
