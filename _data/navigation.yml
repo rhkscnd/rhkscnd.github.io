@@ -13,7 +13,7 @@
   
   main:
   - title: "Categories"
-    url: /categories/
+    url: /categories/cpp
   - title: "Tags"
     url: /tags/
   - title: "About"
