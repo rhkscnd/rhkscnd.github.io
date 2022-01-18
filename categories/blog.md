@@ -1,6 +1,6 @@
 ---
 title: "Git Blog"
-layout: archive
+layout: category
 permalink: categories/blog
 author_profile: false
 sidebar_main: true
