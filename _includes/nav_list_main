@@ -20,6 +20,12 @@
                 {% for category in site.categories %}
                     {% if category[0] == "cpp" %}
                         <li><a href="/categories/cpp" class="">C ++ ({{category[1].size}})</a></li>
+<<<<<<< HEAD
+=======
+					{% if category[0] == "blog" %}
+                        <li><a href="/categories/cpp" class="">C ++ ({{category[1].size}})</a></li>
+                    {% endif %}
+>>>>>>> a3a3cecca031173ca8078a9dcb0874fbceb3fa35
                 {% endfor %}
             </ul>
             <ul>
