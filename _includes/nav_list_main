@@ -20,7 +20,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "cpp" %}
                         <li><a href="/categories/cpp" class="">C ++ ({{category[1].size}})</a></li>
-                    {% endif %}
                 {% endfor %}
             </ul>
             <ul>
@@ -30,6 +29,15 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+		<span class="nav__sub-title">Blog</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "blog" %}
+                        <li><a href="/categories/blog" class="">Git Blog (with C++) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>	
         <span class="nav__sub-title">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
