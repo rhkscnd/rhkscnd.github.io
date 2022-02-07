@@ -3,9 +3,9 @@ title:  "Vector 중복 제거"
 excerpt: "erase, unique"
 
 categories:
-  - C++
+  - cpp
 tags:
-  - C++
+  - cpp
 last_modified_at: 2022-02-04
 ---
 
